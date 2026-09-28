@@ -1,0 +1,20 @@
+# Never let anyone download the password file
+<Files "config.php">
+    Require all denied
+</Files>
+<Files "config.sample.php">
+    Require all denied
+</Files>
+
+# Calendar data is only served through api.php
+Options -Indexes
+
+# Single-page app: let React Router handle any path that isn't a real file
+# (e.g. /calendar) by falling back to index.html.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>

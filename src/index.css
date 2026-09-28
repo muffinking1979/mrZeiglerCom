@@ -1142,6 +1142,246 @@ h4 {
   }
 }
 
+/* ---------- Calendar admin ---------- */
+.cal-admin-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+.cal-admin-link {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 4px 0;
+  transition: color 0.2s;
+}
+.cal-admin-link:hover {
+  color: var(--text);
+}
+.cal-admin-badge {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  color: #4ade80;
+  background: rgba(74, 222, 128, 0.12);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+}
+.cal-save-status {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.cal-save-error {
+  color: #f87171;
+}
+.cal-shift-btn {
+  padding: 5px 14px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--accent-3) 40%, var(--border));
+  background: color-mix(in srgb, var(--accent-3) 12%, transparent);
+  color: var(--accent-3);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+.cal-shift-btn:hover,
+.cal-shift-btn.active {
+  background: color-mix(in srgb, var(--accent-3) 30%, transparent);
+  border-color: var(--accent-3);
+}
+
+.cal-login-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: -6px 0 20px;
+}
+.cal-login-input {
+  padding: 9px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.cal-login-input:focus {
+  border-color: var(--accent-1);
+}
+.cal-login-submit {
+  padding: 9px 18px;
+}
+.cal-login-error {
+  font-size: 0.82rem;
+  color: #f87171;
+}
+
+/* Shift-select mode on the grid */
+.cal-grid.shift-mode .cal-cell:not(.empty) {
+  cursor: pointer;
+}
+.cal-cell {
+  position: relative;
+}
+.cal-cell.shift-selected {
+  background: color-mix(in srgb, var(--accent-3) 18%, transparent);
+  border-color: var(--accent-3);
+}
+.cal-shift-check {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  color: var(--accent-3);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* Day modal: event sections */
+.cal-modal-section {
+  margin-bottom: 20px;
+}
+.cal-modal-section-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.cal-event-list li {
+  gap: 10px;
+}
+.cal-event-text {
+  flex: 1;
+}
+.cal-modal-empty {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-style: italic;
+}
+.cal-delete-btn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 6px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color 0.15s, background 0.15s;
+}
+.cal-delete-btn:hover {
+  color: #f87171;
+  background: rgba(248, 113, 113, 0.12);
+}
+.cal-add-row {
+  display: flex;
+  gap: 8px;
+}
+.cal-add-input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.cal-add-input:focus {
+  border-color: var(--accent-1);
+}
+.cal-add-btn {
+  padding: 10px 20px;
+}
+
+/* Floating shift toolbar */
+.shift-toolbar {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: min(560px, calc(100vw - 32px));
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 12px 22px;
+  box-shadow: var(--shadow);
+}
+.shift-info {
+  font-size: 0.85rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.shift-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.shift-dir-group {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.shift-dir-btn {
+  background: var(--surface);
+  color: var(--muted);
+  border: none;
+  padding: 7px 10px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.shift-dir-btn.active {
+  background: var(--accent-1);
+  color: #fff;
+}
+.shift-amount {
+  width: 56px;
+  padding: 7px 8px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+  text-align: center;
+}
+.shift-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.shift-actions {
+  display: flex;
+  gap: 8px;
+}
+.shift-apply-btn,
+.shift-cancel-btn {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+}
+@media (max-width: 640px) {
+  .shift-toolbar {
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 16px 18px;
+  }
+}
+
 /* ---------- Footer ---------- */
 .footer {
   padding: 30px 0;
@@ -1156,5 +1396,16 @@ h4 {
   gap: 10px;
 }
 .footer a:hover {
+  color: var(--text);
+}
+.footer-top-btn {
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+.footer-top-btn:hover {
   color: var(--text);
 }

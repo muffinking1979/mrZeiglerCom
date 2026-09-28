@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Calendar admin backend (never committed — see README)
+dev-data
+public/config.php
