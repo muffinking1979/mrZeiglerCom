@@ -51,6 +51,16 @@ body {
   overflow-x: hidden;
 }
 
+/* Keep the footer at the bottom of the window on short pages. */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -199,6 +209,11 @@ h4 {
 .nav a:hover {
   color: var(--text);
   background: var(--surface);
+}
+.nav a.active {
+  color: var(--text);
+  background: var(--surface);
+  font-weight: 600;
 }
 .header-actions {
   display: flex;

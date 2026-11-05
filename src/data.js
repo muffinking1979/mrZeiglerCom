@@ -19,13 +19,13 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    'I’ve been teaching math for fifteen years, and I still get a jolt every time a student’s face goes from “I don’t get it” to “oh — OH” in the middle of a problem. That moment is the reason I do this job.',
+    'I’ve been teaching math for seventeen years, and I still get a jolt every time a student’s face goes from “I don’t get it” to “oh — OH” in the middle of a problem. That moment is the reason I do this job.',
     'Before teaching, I spent four years as a civil engineer, double-checking load calculations that nobody ever thanked me for. I realized the part of the job I actually loved was explaining the math to the new hires — so I traded blueprints for lesson plans and never looked back.',
     'My classroom runs on think-pair-share, error analysis, and a very large supply of whiteboard markers. I believe every student can learn to do math, that a wrong answer is data, and that “I don’t know yet” is a complete sentence.',
     'Outside school I coach the Bowsher Mathletes, do the crossword and KenKen every morning before first bell, volunteer as a tax-season tutor at the public library, and make a mean batch of Saturday pancakes.',
   ],
   stats: [
-    { value: '15', label: 'Years teaching' },
+    { value: '17', label: 'Years teaching' },
     { value: '2,200+', label: 'Students taught' },
     { value: '91%', label: 'Ohio State Test pass rate' },
     { value: '4×', label: 'Regional Math League champions' },
@@ -45,8 +45,8 @@ export const currentCourses = [
     code: 'MATH 401',
     name: 'Pre-Calculus',
     level: 'Grades 11–12',
-    periods: 'Periods 1 & 4',
-    room: 'Room 118',
+    periods: 'Period 3',
+    room: 'Room 1317',
     image: '/images/course-precalc.svg',
     description:
       'The bridge between algebra and calculus: functions, trig identities, polar coordinates, and sequences. Students leave ready for calculus — or at least no longer afraid of a unit circle.',
@@ -56,8 +56,8 @@ export const currentCourses = [
     code: 'MATH 201',
     name: 'Geometry',
     level: 'Grades 9–10',
-    periods: 'Periods 2 & 5',
-    room: 'Room 118',
+    periods: 'Periods 1 & 7',
+    room: 'Room 1317',
     image: '/images/course-geometry.svg',
     description:
       'Proofs, constructions, and a whole lot of “why does that work?” We build spatial reasoning from the ground up, one compass-and-straightedge construction at a time.',
@@ -67,8 +67,8 @@ export const currentCourses = [
     code: 'MATH 205',
     name: 'Geometry Honors',
     level: 'Grades 9–10',
-    periods: 'Period 3',
-    room: 'Room 118',
+    periods: 'Period 5',
+    room: 'Room 1317',
     image: '/images/course-geometry-honors.svg',
     description:
       'The same core content as Geometry, at a faster pace and with a sharper edge — two-column proofs, coordinate geometry, and problems pulled straight from math competitions.',
@@ -78,8 +78,8 @@ export const currentCourses = [
     code: 'MATH 450',
     name: 'Statistics and Analysis',
     level: 'Grades 11–12',
-    periods: 'Periods 5 & 6',
-    room: 'Room 118',
+    periods: 'Periods 4',
+    room: 'Room 1317',
     image: '/images/course-stats.svg',
     description:
       'How to read a study, spot a misleading graph, and not get fooled by a p-value. We work with real, messy datasets from day one, right up through a self-designed final research project.',

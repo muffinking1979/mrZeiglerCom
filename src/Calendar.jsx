@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { SectionHead } from './App'
+import SectionHead from './SectionHead'
 import { classCalendars, schoolEvents } from './data'
 import { checkPassword, fetchCalendarEvents, saveCalendarEvents } from './calendarApi'
 

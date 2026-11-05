@@ -1,17 +1,20 @@
-import { useEffect, useState } from 'react'
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { useEffect, useLayoutEffect, useState } from 'react'
+import { BrowserRouter, Link, NavLink, Route, Routes, useLocation } from 'react-router-dom'
 import { profile } from './data'
-import Home from './Home'
-import CalendarPage from './CalendarPage'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import CalendarPage from './pages/CalendarPage'
+import BlogPage from './pages/BlogPage'
+import ContactPage from './pages/ContactPage'
+import NotFoundPage from './pages/NotFoundPage'
 
+// To add a page: create it in src/pages/, add a <Route> below, and (if it
+// belongs in the menu) an entry here.
 const NAV = [
-  { id: 'about', label: 'About', to: '/#about' },
-  { id: 'teaching', label: 'Teaching', to: '/#teaching' },
-  { id: 'calendar', label: 'Calendar', to: '/calendar' },
-  { id: 'blog', label: 'Blog', to: '/#blog' },
-  { id: 'past', label: 'Past Classes', to: '/#past' },
-  { id: 'projects', label: 'Projects', to: '/#projects' },
-  { id: 'contact', label: 'Contact', to: '/#contact' },
+  { label: 'About', to: '/about' },
+  { label: 'Calendar', to: '/calendar' },
+  { label: 'Blog', to: '/blog' },
+  { label: 'Contact', to: '/contact' },
 ]
 
 function useTheme() {
@@ -33,14 +36,13 @@ function useTheme() {
   return [theme, () => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))]
 }
 
-export function SectionHead({ kicker, title, sub }) {
-  return (
-    <div className="section-head reveal">
-      <span className="kicker">{kicker}</span>
-      <h2>{title}</h2>
-      {sub && <p>{sub}</p>}
-    </div>
-  )
+// Each route should feel like a fresh page, so jump to the top when the path changes.
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }, [pathname])
+  return null
 }
 
 function Header({ theme, toggleTheme }) {
@@ -54,15 +56,15 @@ function Header({ theme, toggleTheme }) {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container header-inner">
-        <Link to="/" className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <Link to="/" className="logo" onClick={() => setOpen(false)}>
           <span className="logo-mark">Z</span>
           <span>{profile.name}</span>
         </Link>
         <nav className={`nav ${open ? 'open' : ''}`}>
           {NAV.map((item) => (
-            <Link key={item.id} to={item.to} onClick={() => setOpen(false)}>
+            <NavLink key={item.to} to={item.to} onClick={() => setOpen(false)}>
               {item.label}
-            </Link>
+            </NavLink>
           ))}
         </nav>
         <div className="header-actions">
@@ -104,11 +106,16 @@ export default function App() {
   const [theme, toggleTheme] = useTheme()
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/calendar" element={<CalendarPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
       <Footer />

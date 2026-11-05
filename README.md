@@ -1,7 +1,10 @@
 # Mr. Zeigler — Teacher Profile
 
-Vite + React single-page app (React Router). The homepage (`/`) is one scrolling page; the
-calendar lives on its own route at `/calendar` so it can be viewed and shared on its own.
+Vite + React single-page app (React Router). Each page has its own route: `/`, `/about`,
+`/calendar`, `/blog`, and `/contact`. Unknown paths show a 404 page.
+
+To add a page: create a component in `src/pages/`, add a `<Route>` in `src/App.jsx`, and add an
+entry to `NAV` there if it belongs in the menu.
 
 ```bash
 npm install
