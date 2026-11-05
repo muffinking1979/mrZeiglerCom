@@ -6,6 +6,23 @@ Vite + React single-page app (React Router). Each page has its own route: `/`, `
 To add a page: create a component in `src/pages/`, add a `<Route>` in `src/App.jsx`, and add an
 entry to `NAV` there if it belongs in the menu.
 
+## OST resources
+
+`/ost` lists the Ohio State Tests subjects; each subject's resources are listed in
+`src/ost/subjects.js` (links to pages here, outside links, or files in `public/`).
+
+The **released-items viewer** (`/ost/geometry/released-items`) is ported from the separate
+`Geo-OST-web-app` project, which still builds the data (it renders the question images from
+Ohio's PDFs). After regenerating data there, copy it into this site with:
+
+```bash
+npm run sync:geometry
+```
+
+That copies `items.json` to `src/ost/data/geometry.json` and the images to
+`public/released-items/geometry/`. To add an Algebra viewer, build its data in the same shape,
+add a `sync:algebra` script, and fill in `releasedItems` for `algebra` in `src/ost/subjects.js`.
+
 ```bash
 npm install
 npm run dev

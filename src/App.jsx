@@ -6,6 +6,9 @@ import AboutPage from './pages/AboutPage'
 import CalendarPage from './pages/CalendarPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
+import OstPage from './pages/OstPage'
+import OstSubjectPage from './pages/OstSubjectPage'
+import ReleasedItemsPage from './pages/ReleasedItemsPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 // To add a page: create it in src/pages/, add a <Route> below, and (if it
@@ -13,6 +16,7 @@ import NotFoundPage from './pages/NotFoundPage'
 const NAV = [
   { label: 'About', to: '/about' },
   { label: 'Calendar', to: '/calendar' },
+  { label: 'OST', to: '/ost' },
   { label: 'Blog', to: '/blog' },
   { label: 'Contact', to: '/contact' },
 ]
@@ -113,6 +117,9 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/calendar" element={<CalendarPage />} />
+          <Route path="/ost" element={<OstPage />} />
+          <Route path="/ost/:subject" element={<OstSubjectPage />} />
+          <Route path="/ost/:subject/released-items" element={<ReleasedItemsPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
