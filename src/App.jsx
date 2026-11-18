@@ -9,6 +9,8 @@ import ContactPage from './pages/ContactPage'
 import OstPage from './pages/OstPage'
 import OstSubjectPage from './pages/OstSubjectPage'
 import ReleasedItemsPage from './pages/ReleasedItemsPage'
+import ToolsPage from './pages/ToolsPage'
+import TransformationMakerPage from './pages/TransformationMakerPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 // To add a page: create it in src/pages/, add a <Route> below, and (if it
@@ -17,6 +19,7 @@ const NAV = [
   { label: 'About', to: '/about' },
   { label: 'Calendar', to: '/calendar' },
   { label: 'OST', to: '/ost' },
+  { label: 'Tools', to: '/tools' },
   { label: 'Blog', to: '/blog' },
   { label: 'Contact', to: '/contact' },
 ]
@@ -120,6 +123,8 @@ export default function App() {
           <Route path="/ost" element={<OstPage />} />
           <Route path="/ost/:subject" element={<OstSubjectPage />} />
           <Route path="/ost/:subject/released-items" element={<ReleasedItemsPage />} />
+          <Route path="/tools" element={<ToolsPage />} />
+          <Route path="/tools/transformation-maker" element={<TransformationMakerPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />

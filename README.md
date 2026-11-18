@@ -28,6 +28,21 @@ npm install
 npm run dev
 ```
 
+## Tools
+
+`/tools` shows a grid of buttons, one per entry in `src/tools/tools.js`; each tool has its own
+page at `/tools/<slug>` (add its `<Route>` in `src/App.jsx`).
+
+The **Transformation Maker** (`/tools/transformation-maker`) is copied from the separate
+`transformationMaker` project. After changing it there, copy it in again with:
+
+```bash
+npm run sync:transformation-maker
+```
+
+That replaces `src/tools/transformation-maker/` (test files are skipped). Its colors are matched
+to the site theme by overrides at the bottom of `src/index.css`, so the copied files stay unedited.
+
 ## Editing
 - **All text content:** `src/data.js` (about, courses, blog posts, past classes, projects, testimonials, office hours).
 - **Images:** placeholders live in `public/images/`. Drop in your own file (jpg/png/webp) and update the path in `src/data.js`.

@@ -1756,3 +1756,57 @@ h4 {
     font: inherit;
   }
 }
+
+/* Tools */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 22px;
+}
+.tool-btn {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+}
+.tool-btn:hover {
+  transform: translateY(-4px);
+  background: var(--surface-hover);
+  border-color: color-mix(in srgb, var(--accent-1) 40%, var(--border));
+}
+.tool-icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  margin-bottom: 16px;
+  border-radius: 14px;
+  font-size: 1.6rem;
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+}
+.tool-btn h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+.tool-btn p {
+  color: var(--muted);
+}
+
+/* Match the Transformation Maker to the site theme (its own CSS stays untouched). */
+:root .tm-root {
+  --tm-text: var(--text);
+  --tm-muted: var(--muted);
+  --tm-surface: var(--bg-alt);
+  --tm-panel: var(--surface);
+  --tm-border: var(--border);
+  --tm-focus: var(--accent-1);
+}
+:root[data-theme='dark'] .tm-root,
+:root:not([data-theme]) .tm-root {
+  --tm-grid-line: rgba(255, 255, 255, 0.08);
+  --tm-axis: #c4c4d4;
+  --tm-original: #60a5fa;
+  --tm-image: #fb923c;
+  --tm-error: #f87171;
+  --tm-warn: #fbbf24;
+}

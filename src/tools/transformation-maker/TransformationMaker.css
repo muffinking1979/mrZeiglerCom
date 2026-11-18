@@ -1,0 +1,335 @@
+/*
+ * Every selector is scoped under .tm-root with a "tm-" prefix so this
+ * stylesheet can't leak into (or be confused with) a host app's styles.
+ * Colors are custom properties; a host app can override them on .tm-root.
+ * Layout responds to the component's own width (container query), not the
+ * viewport, so it adapts to whatever space the host page gives it.
+ */
+.tm-root {
+  --tm-text: #1f2937;
+  --tm-muted: #6b7280;
+  --tm-surface: #ffffff;
+  --tm-panel: #f8fafc;
+  --tm-border: #d1d5db;
+  --tm-grid-line: #e5e7eb;
+  --tm-axis: #374151;
+  --tm-original: #2563eb;
+  --tm-image: #ea580c;
+  --tm-error: #b91c1c;
+  --tm-warn: #92400e;
+  --tm-focus: #2563eb;
+  --tm-radius: 8px;
+
+  container-type: inline-size;
+  color: var(--tm-text);
+  font-family: inherit;
+  line-height: 1.4;
+}
+
+.tm-root *,
+.tm-root *::before,
+.tm-root *::after {
+  box-sizing: border-box;
+}
+
+/* Narrow: one column in DOM order (shape, rule, grid, results).
+   Wide: controls stacked on the left, grid alone on the right. */
+.tm-layout {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+}
+
+@container (min-width: 760px) {
+  .tm-layout {
+    column-gap: 16px;
+    grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
+    /* The last 1fr row soaks up extra height when the grid is taller than the controls. */
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-areas:
+      'shape   grid'
+      'rule    grid'
+      'results grid'
+      '.       grid';
+  }
+  .tm-area-shape { grid-area: shape; }
+  .tm-area-rule { grid-area: rule; }
+  .tm-area-grid { grid-area: grid; }
+  .tm-area-results { grid-area: results; }
+}
+
+.tm-panel {
+  background: var(--tm-panel);
+  border: 1px solid var(--tm-border);
+  border-radius: var(--tm-radius);
+  padding: 14px 16px;
+}
+
+.tm-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tm-swatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  vertical-align: -2px;
+}
+.tm-swatch--original { background: var(--tm-original); }
+.tm-swatch--image {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--tm-image) 0 3px,
+    transparent 3px 5px
+  );
+  border: 2px solid var(--tm-image);
+}
+
+/* Vertex rows */
+.tm-vertex-list {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tm-vertex {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tm-vertex__label {
+  width: 1.8em;
+  font-weight: 600;
+  color: var(--tm-original);
+}
+
+.tm-paren {
+  color: var(--tm-muted);
+  font-size: 1.1rem;
+}
+
+/* Inputs & buttons */
+.tm-input {
+  font: inherit;
+  color: var(--tm-text);
+  background: var(--tm-surface);
+  border: 1px solid var(--tm-border);
+  border-radius: 6px;
+  padding: 6px 8px;
+  min-width: 0;
+}
+.tm-input:focus-visible {
+  outline: 2px solid var(--tm-focus);
+  outline-offset: 1px;
+}
+.tm-input[aria-invalid='true'] {
+  border-color: var(--tm-error);
+  background: #fef2f2;
+}
+
+.tm-input--coord {
+  width: 4.5em;
+  text-align: center;
+}
+
+.tm-input--rule {
+  flex: 1;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.tm-button {
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--tm-text);
+  background: var(--tm-surface);
+  border: 1px solid var(--tm-border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.tm-button:hover:not(:disabled) { background: #f1f5f9; }
+.tm-button:focus-visible {
+  outline: 2px solid var(--tm-focus);
+  outline-offset: 1px;
+}
+.tm-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.tm-button--icon {
+  margin-left: 4px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* Rule fields */
+.tm-rule-summary {
+  margin: 0 0 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95rem;
+  color: var(--tm-muted);
+  overflow-wrap: anywhere;
+}
+
+.tm-rule {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin-bottom: 8px;
+}
+
+.tm-rule__name {
+  width: 2.6em;
+  font-weight: 600;
+  color: var(--tm-image);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.tm-rule__error {
+  flex-basis: 100%;
+  margin: 0 0 0 calc(2.6em + 8px);
+}
+
+.tm-hint {
+  margin: 6px 0 0;
+  font-size: 0.85rem;
+  color: var(--tm-muted);
+}
+.tm-hint code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--tm-surface);
+  border: 1px solid var(--tm-grid-line);
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.tm-message {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+}
+.tm-message--error { color: var(--tm-error); }
+.tm-message--warn { color: var(--tm-warn); }
+
+/* Results table */
+.tm-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+}
+.tm-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--tm-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0 4px 6px;
+}
+.tm-table td {
+  padding: 4px;
+  border-top: 1px solid var(--tm-grid-line);
+}
+.tm-table td:first-child { color: var(--tm-original); }
+.tm-table td:last-child { color: var(--tm-image); }
+
+/* Grid */
+.tm-grid-wrap {
+  min-width: 0;
+  background: var(--tm-surface);
+  border: 1px solid var(--tm-border);
+  border-radius: var(--tm-radius);
+  padding: 8px;
+}
+
+.tm-grid {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  font-family: inherit;
+}
+
+.tm-grid__bg { fill: var(--tm-surface); }
+.tm-grid__line {
+  stroke: var(--tm-grid-line);
+  stroke-width: 1;
+}
+.tm-grid__axis {
+  stroke: var(--tm-axis);
+  stroke-width: 1.6;
+}
+.tm-grid__axis-name {
+  fill: var(--tm-axis);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+}
+.tm-grid__tick {
+  fill: var(--tm-muted);
+  font-size: 11px;
+}
+
+.tm-shape polygon,
+.tm-shape polyline {
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+.tm-shape text {
+  font-size: 14px;
+  font-weight: 700;
+  paint-order: stroke;
+  stroke: var(--tm-surface);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+
+.tm-shape--original polygon,
+.tm-shape--original polyline {
+  stroke: var(--tm-original);
+  fill: color-mix(in srgb, var(--tm-original) 18%, transparent);
+}
+.tm-shape--original circle { fill: var(--tm-original); }
+.tm-shape--original text { fill: var(--tm-original); }
+
+/* Image is dashed as well as a different color, so it's distinguishable without color. */
+.tm-shape--image polygon,
+.tm-shape--image polyline {
+  stroke: var(--tm-image);
+  stroke-dasharray: 8 5;
+  fill: color-mix(in srgb, var(--tm-image) 14%, transparent);
+}
+.tm-shape--image circle { fill: var(--tm-image); }
+.tm-shape--image text { fill: var(--tm-image); }
+
+.tm-shape polyline { fill: none; }
+
+.tm-legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 6px 0 2px;
+  font-size: 0.9rem;
+  color: var(--tm-muted);
+}
+.tm-legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
