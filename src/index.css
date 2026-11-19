@@ -1873,4 +1873,9 @@ h4 {
   color: #0f172a;
   --tg-ink: #0f172a;
   --tg-muted: #475569;
+  --tg-line: #e2e8f0;
+  --tg-blue: #2563eb;
+}
+.tg-root .tg-badge-card .tg-btn:not(.tg-btn-primary) {
+  background: #fff;
 }
