@@ -11,6 +11,7 @@ import OstSubjectPage from './pages/OstSubjectPage'
 import ReleasedItemsPage from './pages/ReleasedItemsPage'
 import ToolsPage from './pages/ToolsPage'
 import TransformationMakerPage from './pages/TransformationMakerPage'
+import TransformationChallengePage from './pages/TransformationChallengePage'
 import NotFoundPage from './pages/NotFoundPage'
 
 // To add a page: create it in src/pages/, add a <Route> below, and (if it
@@ -125,6 +126,7 @@ export default function App() {
           <Route path="/ost/:subject/released-items" element={<ReleasedItemsPage />} />
           <Route path="/tools" element={<ToolsPage />} />
           <Route path="/tools/transformation-maker" element={<TransformationMakerPage />} />
+          <Route path="/tools/transformation-challenge" element={<TransformationChallengePage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />

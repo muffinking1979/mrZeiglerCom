@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "sync:geometry": "node scripts/sync-released-items.mjs geometry ../Geo-OST-web-app",
-    "sync:transformation-maker": "node scripts/sync-transformation-maker.mjs ../transformationMaker"
+    "sync:transformation-maker": "node scripts/sync-transformation-maker.mjs ../transformationMaker",
+    "sync:transformation-challenge": "node scripts/sync-transformation-challenge.mjs ../transformationMaker2"
   },
   "dependencies": {
     "react": "^19.2.8",

@@ -1810,3 +1810,67 @@ h4 {
   --tm-error: #f87171;
   --tm-warn: #fbbf24;
 }
+
+/* Fit the Transformation Challenge into the page and the site theme (its own CSS stays untouched). */
+:root .tg-root {
+  --tg-ink: var(--text);
+  --tg-muted: var(--muted);
+  --tg-card: var(--surface);
+  --tg-line: var(--border);
+  background: none;
+  min-height: 0;
+  padding: 0;
+  font-family: inherit;
+}
+.tg-root .tg-header h1 {
+  display: none; /* the page heading already names the tool */
+}
+.tg-root .tg-header:not(:has(> :nth-child(2))) {
+  display: none; /* on the level picker the header holds only the title */
+}
+.tg-root .tg-header,
+.tg-root .tg-board-wrap,
+.tg-root .tg-panel,
+.tg-root .tg-level-card {
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+.tg-root .tg-level-card {
+  color: var(--text);
+}
+.tg-root .tg-steps li,
+.tg-root .tg-btn:not(.tg-btn-primary) {
+  background: var(--bg-alt);
+}
+.tg-root .tg-step-num {
+  color: var(--bg);
+}
+:root[data-theme='dark'] .tg-root,
+:root:not([data-theme]) .tg-root {
+  --tg-blue: #60a5fa;
+}
+:root[data-theme='dark'] .tg-root .tg-steps li.tg-current,
+:root:not([data-theme]) .tg-root .tg-steps li.tg-current {
+  background: rgba(225, 29, 72, 0.15);
+}
+:root[data-theme='dark'] .tg-root .tg-result-ok,
+:root:not([data-theme]) .tg-root .tg-result-ok {
+  background: rgba(34, 197, 94, 0.15);
+  color: #86efac;
+}
+:root[data-theme='dark'] .tg-root .tg-result-bad,
+:root:not([data-theme]) .tg-root .tg-result-bad {
+  background: rgba(239, 68, 68, 0.15);
+  color: #fca5a5;
+}
+:root[data-theme='dark'] .tg-root .tg-chip-orange,
+:root:not([data-theme]) .tg-root .tg-chip-orange {
+  background: rgba(249, 115, 22, 0.2);
+  color: #fdba74;
+}
+/* The badge is meant to be screenshotted, so it keeps its own light colors. */
+.tg-badge-card {
+  color: #0f172a;
+  --tg-ink: #0f172a;
+  --tg-muted: #475569;
+}

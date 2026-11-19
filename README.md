@@ -43,6 +43,15 @@ npm run sync:transformation-maker
 That replaces `src/tools/transformation-maker/` (test files are skipped). Its colors are matched
 to the site theme by overrides at the bottom of `src/index.css`, so the copied files stay unedited.
 
+The **Transformation Challenge** (`/tools/transformation-challenge`) is copied the same way from
+the separate `transformationMaker2` project:
+
+```bash
+npm run sync:transformation-challenge
+```
+
+That replaces `src/tools/transformation-challenge/`; its theme overrides are also in `src/index.css`.
+
 ## Editing
 - **All text content:** `src/data.js` (about, courses, blog posts, past classes, projects, testimonials, office hours).
 - **Images:** placeholders live in `public/images/`. Drop in your own file (jpg/png/webp) and update the path in `src/data.js`.
