@@ -13,4 +13,10 @@ export const tools = [
     icon: '★',
     blurb: 'Predict where a triangle lands after reflections and rotations, then watch it move. Five in a row earns a badge.',
   },
+  {
+    slug: 'transformation-explorer',
+    name: 'Transformation Explorer',
+    icon: '⇋',
+    blurb: 'Drag a shape and watch its image move under rotations and reflections about the origin, with the coordinates side by side.',
+  },
 ]

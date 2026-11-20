@@ -1879,3 +1879,35 @@ h4 {
 .tg-root .tg-badge-card .tg-btn:not(.tg-btn-primary) {
   background: #fff;
 }
+
+/* Fit the Transformation Explorer into the page and the site theme (its own CSS stays untouched). */
+:root .tx-root {
+  --tx-text: var(--text);
+  --tx-muted: var(--muted);
+  --tx-surface: var(--bg-alt);
+  --tx-border: var(--border);
+  max-width: none;
+  padding: 0;
+  font-family: inherit;
+}
+.tx-root .tx-title {
+  display: none; /* the page heading already names the tool */
+}
+.tx-root .tx-tbtn,
+.tx-root .tx-rule-btn {
+  background: var(--surface);
+}
+.tx-root .tx-vertex,
+.tx-root .tx-center {
+  stroke: var(--bg-alt);
+}
+:root[data-theme='dark'] .tx-root,
+:root:not([data-theme]) .tx-root {
+  --tx-grid: rgba(255, 255, 255, 0.08);
+  --tx-axis: #c4c4d4;
+  --tx-orig: #60a5fa;
+  --tx-orig-fill: rgba(96, 165, 250, 0.22);
+  --tx-image: #fb923c;
+  --tx-image-fill: rgba(251, 146, 60, 0.2);
+  --tx-mirror: #4ade80;
+}

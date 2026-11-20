@@ -1,0 +1,360 @@
+/* All rules are scoped under .tx-root so they won't leak into the host app.
+   Override the custom properties below to re-theme. */
+.tx-root {
+  --tx-orig: #2563eb;
+  --tx-orig-fill: rgba(37, 99, 235, 0.22);
+  --tx-image: #ea580c;
+  --tx-image-fill: rgba(234, 88, 12, 0.2);
+  --tx-mirror: #16a34a;
+  --tx-grid: #e2e8f0;
+  --tx-axis: #334155;
+  --tx-text: #1e293b;
+  --tx-muted: #64748b;
+  --tx-surface: #ffffff;
+  --tx-border: #cbd5e1;
+  --tx-accent: #1e293b;
+
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  color: var(--tx-text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+/* Grid on the left, controls on the right. The shape toggle sits in its own
+   row above the grid so the side panel lines up with the top of the grid. */
+.tx-layout {
+  display: grid;
+  grid-template-columns: auto 300px;
+  grid-template-areas:
+    'top  .'
+    'plane side';
+  justify-content: center;
+  align-items: start;
+  column-gap: 20px;
+  row-gap: 6px;
+}
+.tx-left {
+  display: contents;
+}
+.tx-top {
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.tx-plane-wrap {
+  grid-area: plane;
+}
+.tx-right {
+  grid-area: side;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tx-title {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.tx-hint {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--tx-muted);
+  text-align: center;
+}
+
+/* ---------- Shape toggle ---------- */
+.tx-shape-toggle {
+  display: inline-flex;
+  border: 1px solid var(--tx-border);
+  border-radius: 999px;
+  padding: 3px;
+  background: var(--tx-surface);
+}
+.tx-seg {
+  font: inherit;
+  font-weight: 600;
+  border: 0;
+  background: transparent;
+  color: var(--tx-text);
+  padding: 8px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.tx-seg.is-active {
+  background: var(--tx-orig);
+  color: #fff;
+}
+
+/* ---------- Plane ---------- */
+.tx-plane-wrap {
+  /* Size the square plane to fit the screen height (e.g. a 1366x768 Chromebook). */
+  width: min(640px, calc(100vh - 165px), calc(100vw - 360px));
+  width: min(640px, calc(100dvh - 165px), calc(100vw - 360px));
+  min-width: 300px;
+}
+.tx-plane {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: 12px;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.tx-gridline {
+  stroke: var(--tx-grid);
+  stroke-width: 1;
+}
+.tx-axis {
+  stroke: var(--tx-axis);
+  stroke-width: 1.75;
+}
+.tx-axis-arrowhead {
+  fill: var(--tx-axis);
+}
+.tx-ticklabel {
+  font-size: 10px;
+  fill: var(--tx-muted);
+  pointer-events: none;
+}
+.tx-axislabel {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+  fill: var(--tx-axis);
+  pointer-events: none;
+}
+
+.tx-mirror {
+  stroke: var(--tx-mirror);
+  stroke-width: 3;
+  stroke-dasharray: 10 6;
+  pointer-events: none;
+}
+.tx-mirror-label {
+  font-size: 14px;
+  font-weight: 700;
+  fill: var(--tx-mirror);
+  pointer-events: none;
+}
+
+.tx-rotguide {
+  pointer-events: none;
+}
+.tx-ray {
+  stroke-width: 1.5;
+  stroke-dasharray: 4 4;
+}
+.tx-ray-orig {
+  stroke: var(--tx-orig);
+}
+.tx-ray-image {
+  stroke: var(--tx-image);
+}
+.tx-arc {
+  fill: none;
+  stroke: var(--tx-mirror);
+  stroke-width: 2.5;
+}
+.tx-arrowhead {
+  fill: var(--tx-mirror);
+}
+.tx-center {
+  fill: var(--tx-mirror);
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.tx-poly {
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+.tx-poly-orig {
+  fill: var(--tx-orig-fill);
+  stroke: var(--tx-orig);
+  cursor: grab;
+}
+.tx-poly-image {
+  fill: var(--tx-image-fill);
+  stroke: var(--tx-image);
+  stroke-dasharray: 7 4;
+  pointer-events: none;
+}
+.tx-vertex {
+  stroke: #fff;
+  stroke-width: 2;
+  pointer-events: none;
+}
+.tx-vertex-orig {
+  fill: var(--tx-orig);
+}
+.tx-vertex-image {
+  fill: var(--tx-image);
+}
+.tx-hit {
+  fill: transparent;
+  cursor: grab;
+}
+.tx-vlabel {
+  font-size: 15px;
+  font-weight: 700;
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: var(--tx-surface);
+  stroke-width: 4px;
+}
+.tx-vlabel-orig {
+  fill: var(--tx-orig);
+}
+.tx-vlabel-image {
+  fill: var(--tx-image);
+}
+.tx-plane.is-dragging,
+.tx-plane.is-dragging .tx-poly-orig,
+.tx-plane.is-dragging .tx-hit {
+  cursor: grabbing;
+}
+
+/* ---------- Transformation buttons ---------- */
+.tx-transforms {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.tx-group {
+  border: 1px solid var(--tx-border);
+  border-radius: 12px;
+  padding: 8px 10px;
+  background: var(--tx-surface);
+}
+.tx-group-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--tx-muted);
+  margin-bottom: 6px;
+  text-align: center;
+}
+.tx-group-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+.tx-tbtn {
+  font: inherit;
+  font-weight: 600;
+  min-width: 60px;
+  padding: 6px 8px;
+  border: 1px solid var(--tx-border);
+  border-radius: 8px;
+  background: var(--tx-surface);
+  color: var(--tx-text);
+  cursor: pointer;
+}
+.tx-tbtn:hover {
+  border-color: var(--tx-image);
+}
+.tx-tbtn.is-active {
+  background: var(--tx-image);
+  border-color: var(--tx-image);
+  color: #fff;
+}
+.tx-seg:focus-visible,
+.tx-tbtn:focus-visible,
+.tx-rule-btn:focus-visible {
+  outline: 3px solid var(--tx-orig);
+  outline-offset: 2px;
+}
+
+/* Narrow screens (phones, portrait tablets): stack controls under the grid. */
+@media (max-width: 760px) {
+  .tx-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'top'
+      'plane'
+      'side';
+    justify-items: center;
+  }
+  .tx-plane-wrap {
+    width: min(640px, calc(100vw - 32px));
+    min-width: 0;
+  }
+  .tx-right {
+    width: 100%;
+    max-width: 640px;
+  }
+}
+
+/* ---------- Info panel ---------- */
+.tx-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.tx-current-name {
+  font-weight: 700;
+}
+.tx-current-note {
+  color: var(--tx-muted);
+}
+.tx-table {
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.tx-table th,
+.tx-table td {
+  padding: 2px 10px;
+  text-align: left;
+}
+.tx-table th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.tx-col-orig {
+  color: var(--tx-orig);
+  font-weight: 600;
+}
+.tx-col-image {
+  color: var(--tx-image);
+  font-weight: 600;
+}
+.tx-arrowcell {
+  color: var(--tx-muted);
+}
+.tx-rule {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 40px;
+}
+.tx-rule-btn {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid var(--tx-border);
+  border-radius: 8px;
+  background: var(--tx-surface);
+  color: var(--tx-text);
+  cursor: pointer;
+}
+.tx-rule-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: ui-monospace, Consolas, monospace;
+}
