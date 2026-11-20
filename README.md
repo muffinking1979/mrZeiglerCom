@@ -33,7 +33,7 @@ npm run dev
 `/tools` shows a grid of buttons, one per entry in `src/tools/tools.js`; each tool has its own
 page at `/tools/<slug>` (add its `<Route>` in `src/App.jsx`).
 
-The **Transformation Maker** (`/tools/transformation-maker`) is copied from the separate
+The **Coordinate Rule Transformation Explorer** (`/tools/transformation-maker`) is copied from the separate
 `transformationMaker` project. After changing it there, copy it in again with:
 
 ```bash
@@ -52,7 +52,7 @@ npm run sync:transformation-challenge
 
 That replaces `src/tools/transformation-challenge/`; its theme overrides are also in `src/index.css`.
 
-The **Transformation Explorer** (`/tools/transformation-explorer`) is copied from the separate
+The **Reflection / Rotation Explorer** (`/tools/transformation-explorer`) is copied from the separate
 `ReflectionRotationInvestigation` project:
 
 ```bash

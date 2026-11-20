@@ -1792,7 +1792,7 @@ h4 {
   color: var(--muted);
 }
 
-/* Match the Transformation Maker to the site theme (its own CSS stays untouched). */
+/* Match the Coordinate Rule Transformation Explorer to the site theme (its own CSS stays untouched). */
 :root .tm-root {
   --tm-text: var(--text);
   --tm-muted: var(--muted);
@@ -1880,7 +1880,7 @@ h4 {
   background: #fff;
 }
 
-/* Fit the Transformation Explorer into the page and the site theme (its own CSS stays untouched). */
+/* Fit the Reflection / Rotation Explorer into the page and the site theme (its own CSS stays untouched). */
 :root .tx-root {
   --tx-text: var(--text);
   --tx-muted: var(--muted);

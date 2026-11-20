@@ -3,7 +3,7 @@
 export const tools = [
   {
     slug: 'transformation-maker',
-    name: 'Transformation Maker',
+    name: 'Coordinate Rule Transformation Explorer',
     icon: '↻',
     blurb: 'Plot a shape and its image under any coordinate rule — translations, reflections, rotations, and dilations.',
   },
@@ -15,7 +15,7 @@ export const tools = [
   },
   {
     slug: 'transformation-explorer',
-    name: 'Transformation Explorer',
+    name: 'Reflection / Rotation Explorer',
     icon: '⇋',
     blurb: 'Drag a shape and watch its image move under rotations and reflections about the origin, with the coordinates side by side.',
   },
