@@ -1911,3 +1911,97 @@ h4 {
   --tx-image-fill: rgba(251, 146, 60, 0.2);
   --tx-mirror: #4ade80;
 }
+
+/* Fit the Dilation Explorer into the page and the site theme (its own CSS stays untouched). */
+:root .dx-root {
+  --dx-ink: var(--text);
+  --dx-muted: var(--muted);
+  --dx-border: var(--border);
+  height: min(80vh, 720px);
+  min-height: 520px;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+}
+.dx-root .dx-title {
+  display: none; /* the page heading already names the tool */
+}
+.dx-root .dx-btn,
+.dx-root .dx-input {
+  background: var(--surface);
+}
+.dx-root .dx-btn-active,
+.dx-root .dx-btn-active:hover {
+  background: var(--dx-orig);
+}
+.dx-root .dx-btn:not(.dx-btn-active):hover {
+  background: var(--surface-hover);
+}
+.dx-root .dx-panel {
+  background: var(--surface);
+}
+.dx-root .dx-plane {
+  fill: var(--bg-alt);
+  stroke: var(--border);
+}
+.dx-root .dx-desc {
+  background: var(--bg-alt);
+}
+.dx-root .dx-table td {
+  border-bottom-color: var(--border);
+}
+.dx-root .dx-vertex,
+.dx-root .dx-center {
+  fill: var(--bg-alt);
+}
+.dx-root .dx-label {
+  stroke: var(--bg-alt);
+}
+:root[data-theme='dark'] .dx-root,
+:root:not([data-theme]) .dx-root {
+  --dx-orig: #60a5fa;
+  --dx-orig-fill: rgba(96, 165, 250, 0.22);
+  --dx-image: #fb923c;
+  --dx-image-fill: rgba(251, 146, 60, 0.2);
+  --dx-center: #a78bfa;
+}
+:root[data-theme='dark'] .dx-root .dx-gridline,
+:root:not([data-theme]) .dx-root .dx-gridline {
+  stroke: rgba(255, 255, 255, 0.08);
+}
+:root[data-theme='dark'] .dx-root .dx-axis,
+:root:not([data-theme]) .dx-root .dx-axis {
+  stroke: #c4c4d4;
+}
+:root[data-theme='dark'] .dx-root .dx-axislabel,
+:root:not([data-theme]) .dx-root .dx-axislabel {
+  fill: #c4c4d4;
+}
+:root[data-theme='dark'] .dx-root .dx-center-active,
+:root:not([data-theme]) .dx-root .dx-center-active {
+  fill: rgba(167, 139, 250, 0.3);
+}
+:root[data-theme='dark'] .dx-root .dx-error,
+:root:not([data-theme]) .dx-root .dx-error {
+  color: #fca5a5;
+}
+/* On narrow screens, stack the panel under the grid. */
+@media (max-width: 760px) {
+  :root .dx-root {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    height: auto;
+    min-height: 0;
+  }
+  .dx-root .dx-toolbar {
+    flex-wrap: wrap;
+  }
+  .dx-root .dx-board {
+    aspect-ratio: 1;
+  }
+  .dx-root .dx-panel {
+    grid-column: 1;
+    grid-row: 3;
+    overflow: visible;
+  }
+}

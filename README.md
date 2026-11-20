@@ -61,6 +61,15 @@ npm run sync:transformation-explorer
 
 That replaces `src/tools/transformation-explorer/`; its theme overrides are also in `src/index.css`.
 
+The **Dilation Explorer** (`/tools/dilation-explorer`) is copied from the separate
+`DilationExplorer` project:
+
+```bash
+npm run sync:dilation-explorer
+```
+
+That replaces `src/tools/dilation-explorer/`; its theme overrides are also in `src/index.css`.
+
 ## Editing
 - **All text content:** `src/data.js` (about, courses, blog posts, past classes, projects, testimonials, office hours).
 - **Images:** placeholders live in `public/images/`. Drop in your own file (jpg/png/webp) and update the path in `src/data.js`.

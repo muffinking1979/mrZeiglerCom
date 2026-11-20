@@ -13,6 +13,7 @@ import ToolsPage from './pages/ToolsPage'
 import TransformationMakerPage from './pages/TransformationMakerPage'
 import TransformationChallengePage from './pages/TransformationChallengePage'
 import TransformationExplorerPage from './pages/TransformationExplorerPage'
+import DilationExplorerPage from './pages/DilationExplorerPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 // To add a page: create it in src/pages/, add a <Route> below, and (if it
@@ -129,6 +130,7 @@ export default function App() {
           <Route path="/tools/transformation-maker" element={<TransformationMakerPage />} />
           <Route path="/tools/transformation-challenge" element={<TransformationChallengePage />} />
           <Route path="/tools/transformation-explorer" element={<TransformationExplorerPage />} />
+          <Route path="/tools/dilation-explorer" element={<DilationExplorerPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
