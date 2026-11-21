@@ -9,6 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "sync:geometry": "node scripts/sync-released-items.mjs geometry ../Geo-OST-web-app",
+    "sync:algebra": "node scripts/sync-released-items.mjs algebra ../../forSchool/AlgebraOSTWebApp",
     "sync:transformation-maker": "node scripts/sync-transformation-maker.mjs ../transformationMaker",
     "sync:transformation-challenge": "node scripts/sync-transformation-challenge.mjs ../transformationMaker2",
     "sync:transformation-explorer": "node scripts/sync-transformation-explorer.mjs ../ReflectionRotationInvestigation",

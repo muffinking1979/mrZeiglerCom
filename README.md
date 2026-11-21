@@ -20,8 +20,15 @@ npm run sync:geometry
 ```
 
 That copies `items.json` to `src/ost/data/geometry.json` and the images to
-`public/released-items/geometry/`. To add an Algebra viewer, build its data in the same shape,
-add a `sync:algebra` script, and fill in `releasedItems` for `algebra` in `src/ost/subjects.js`.
+`public/released-items/geometry/`.
+
+The Algebra I viewer (`/ost/algebra/released-items`) works the same way. Its data is built
+by `D:\forSchool\AlgebraOSTWebApp` straight from Ohio's scoring-guide PDFs (standards, answer
+keys and page ranges are all read from the PDFs; see that project's README). Copy it in with:
+
+```bash
+npm run sync:algebra
+```
 
 ```bash
 npm install

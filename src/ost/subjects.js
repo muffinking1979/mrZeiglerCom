@@ -10,8 +10,18 @@ export const subjects = {
   algebra: {
     name: 'Algebra I',
     blurb: 'Resources for the Algebra I end-of-course test.',
-    releasedItems: null,
-    resources: [],
+    releasedItems: {
+      load: () => import('./data/algebra.json'),
+      assetBase: '/released-items/algebra/',
+    },
+    resources: [
+      {
+        title: 'Released items by standard',
+        description:
+          'Every released Algebra I OST question since 2016, grouped by the standard it tests, with answers and scoring guidelines.',
+        to: '/ost/algebra/released-items',
+      },
+    ],
   },
   geometry: {
     name: 'Geometry',

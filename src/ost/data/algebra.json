@@ -1,0 +1,2703 @@
+{
+  "years": [
+    {
+      "label": "Spring 2016",
+      "color": "#c0392b"
+    },
+    {
+      "label": "Spring 2017",
+      "color": "#d35400"
+    },
+    {
+      "label": "Spring 2018",
+      "color": "#b7950b"
+    },
+    {
+      "label": "Spring 2019",
+      "color": "#1e8449"
+    },
+    {
+      "label": "Spring 2021",
+      "color": "#1a6da0"
+    },
+    {
+      "label": "Spring 2022",
+      "color": "#27ae60"
+    },
+    {
+      "label": "Spring 2023",
+      "color": "#2980b9"
+    },
+    {
+      "label": "Spring 2024",
+      "color": "#8e44ad"
+    },
+    {
+      "label": "Spring 2025",
+      "color": "#16a085"
+    },
+    {
+      "label": "Spring 2026",
+      "color": "#5d4037"
+    }
+  ],
+  "sections": [
+    {
+      "label": "Number & Quantity",
+      "standards": [
+        "N.RN.2",
+        "N.Q.1",
+        "N.Q.2",
+        "N.Q.3"
+      ]
+    },
+    {
+      "label": "Expressions & Polynomials",
+      "standards": [
+        "A.SSE.1",
+        "A.SSE.2",
+        "A.SSE.3",
+        "A.APR.1"
+      ]
+    },
+    {
+      "label": "Creating Equations",
+      "standards": [
+        "A.CED.1",
+        "A.CED.2",
+        "A.CED.3",
+        "A.CED.4"
+      ]
+    },
+    {
+      "label": "Reasoning with Equations",
+      "standards": [
+        "A.REI.1",
+        "A.REI.3",
+        "A.REI.4",
+        "A.REI.5",
+        "A.REI.6",
+        "A.REI.7",
+        "A.REI.10",
+        "A.REI.11",
+        "A.REI.12"
+      ]
+    },
+    {
+      "label": "Interpreting Functions",
+      "standards": [
+        "F.IF.1",
+        "F.IF.2",
+        "F.IF.3",
+        "F.IF.4",
+        "F.IF.5",
+        "F.IF.7",
+        "F.IF.8",
+        "F.IF.9"
+      ]
+    },
+    {
+      "label": "Building Functions",
+      "standards": [
+        "F.BF.2",
+        "F.BF.3"
+      ]
+    },
+    {
+      "label": "Function Models",
+      "standards": [
+        "F.LE.1",
+        "F.LE.2",
+        "F.LE.3",
+        "F.LE.5"
+      ]
+    },
+    {
+      "label": "Statistics",
+      "standards": [
+        "S.ID.1",
+        "S.ID.2",
+        "S.ID.3",
+        "S.ID.5",
+        "S.ID.6",
+        "S.ID.7",
+        "S.ID.8",
+        "S.ID.9"
+      ]
+    }
+  ],
+  "standards": {
+    "N.RN.2": {
+      "description": "Rewrite expressions involving radicals and rational exponents using the properties of exponents.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q9",
+          "type": "Multi-Select Item",
+          "answer": "A, C, E",
+          "text": "Rewrite expressions involving radicals and rational exponents using the properties of exponents.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=60",
+          "images": [
+            "questions/2017/Q9-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q9-s1.webp"
+          ]
+        }
+      ]
+    },
+    "N.Q.1": {
+      "description": "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.",
+      "items": [
+        {
+          "year": "Spring 2019",
+          "question": "Q1",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=12",
+          "images": [
+            "questions/2019/Q1-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q1-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q34",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=119",
+          "images": [
+            "questions/2021/Q34-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q34-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q29",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=77",
+          "images": [
+            "questions/2022/Q29-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q29-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q17",
+          "type": "Multi-Select Item",
+          "answer": "B, E",
+          "text": "Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=45",
+          "images": [
+            "questions/2023/Q17-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q17-s1.webp"
+          ]
+        }
+      ]
+    },
+    "N.Q.2": {
+      "description": "Define appropriate quantities for the purpose of descriptive modeling.",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q36",
+          "type": "Matching Item",
+          "text": "Define appropriate quantities for the purpose of descriptive modeling.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=128",
+          "images": [
+            "questions/2018/Q36-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q36-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q7",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Define appropriate quantities for the purpose of descriptive modeling.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=34",
+          "images": [
+            "questions/2019/Q7-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q7-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q5",
+          "type": "Multi-Select Item",
+          "answer": "C, D",
+          "text": "Define appropriate quantities for the purpose of descriptive modeling.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=15",
+          "images": [
+            "questions/2025/Q5-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q5-s1.webp"
+          ]
+        }
+      ]
+    },
+    "N.Q.3": {
+      "description": "Choose a level of accuracy appropriate to limitations on measurement when reporting quantities.",
+      "items": [
+        {
+          "year": "Spring 2023",
+          "question": "Q1",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Choose a level of accuracy appropriate to limitations on measurement when reporting quantities.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=13",
+          "images": [
+            "questions/2023/Q1-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q1-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.SSE.1": {
+      "description": "Interpret expressions that represent a quantity in terms of its context. a. Interpret parts of an expression, such as terms, factors, and coefficients.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q2",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Interpret the structure of expressions Interpret expressions that represent a quantity in terms of its context.*",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=20",
+          "images": [
+            "questions/2017/Q2-q1.webp"
+          ],
+          "scoringImages": []
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q23",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Interpret expressions that represent a quantity in terms of its context. a. Interpret parts of an expression, such as terms, factors, and coefficients.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=76",
+          "images": [
+            "questions/2018/Q23-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q23-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q36",
+          "type": "Inline Choice Item",
+          "text": "Interpret expressions that represent a quantity in terms of its context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=119",
+          "images": [
+            "questions/2019/Q36-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q36-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q25",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Interpret expressions that represent a quantity in terms of its context. a. Interpret parts of an expression, such as terms, factors, and coefficients.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=98",
+          "images": [
+            "questions/2021/Q25-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q25-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q7",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Interpret expressions that represent a quantity in terms of its context. b. Interpret complicated expressions by viewing one or more of their parts as a single entity.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=12",
+          "images": [
+            "questions/2022/Q7-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q7-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q29",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Interpret expressions that represent a quantity in terms of its context. a. Interpret parts of an expression, such as terms, factors, and coefficients.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=84",
+          "images": [
+            "questions/2023/Q29-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q29-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q38",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Interpret expressions that represent a quantity in terms of its context. b. Interpret complicated expressions by viewing one or more of their parts as a single entity.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=115",
+          "images": [
+            "questions/2023/Q38-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q38-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q24",
+          "type": "Inline Choice Item",
+          "text": "Interpret parts of an expression, such as terms, factors, and coefficients.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=68",
+          "images": [
+            "questions/2024/Q24-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q24-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q36",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Interpret expressions that represent a quantity in terms of its context. a. Interpret parts of an expression, such as terms, factors, and coefficients.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=94",
+          "images": [
+            "questions/2025/Q36-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q36-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q48",
+          "type": "Equation Item",
+          "text": "Interpret expressions that represent a quantity in terms of its context. a. Interpret parts of an expression, such as terms, factors, and coefficients.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=121",
+          "images": [
+            "questions/2025/Q48-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q48-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 24045",
+          "type": "Multiple Choice",
+          "answer": "B (the cost of refreshments per person)",
+          "title": "Interpret Part of Expression in Context",
+          "text": "The cost of Jana’s restaurant party is 25y + 7(x + 1), where x is the number of guests she invites (not including herself) and y is the hours rented. What does the 7 represent?",
+          "images": [
+            "questions/2026/24045.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "A.SSE.2": {
+      "description": "Use the structure of an expression to identify ways to rewrite it. For example, to factor 3x(x – 5) + 2(x – 5), students should recognize that the x – 5 is common to both expressions being added, so it simplifies to (3x + 2)(x – 5); or see x⁴ – y⁴ as (x²)² – (y²)², thus recognizing it as a difference of squares that can be factored as (x² – y²)(x² + y²).",
+      "items": [
+        {
+          "year": "Spring 2021",
+          "question": "Q39",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Use the structure of an expression to identify ways to rewrite it. For example, to factor 3x(x – 5) + 2(x – 5), students should recognize that the x – 5 is common to both expressions being added, so it simplifies to (3x + 2)(x – 5); or see x⁴ – y⁴ as (x²)² – (y²)², thus recognizing it as a difference of squares that can be factored as (x² – y²)(x² + y²).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=149",
+          "images": [
+            "questions/2021/Q39-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q39-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q8",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Use the structure of an expression to identify ways to rewrite it. For example, to factor 3x(x – 5) + 2(x – 5), students should recognize that the x – 5 is common to both expressions being added, so it simplifies to (3x + 2)(x – 5); or see x⁴ – y⁴ as (x²)² – (y²)², thus recognizing it as a difference of squares that can be factored as (x² – y²)(x² + y²).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=28",
+          "images": [
+            "questions/2023/Q8-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q8-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q35",
+          "type": "Equation Item",
+          "text": "Use the structure of an expression to identify ways to rewrite it. For example, to factor 3x(x – 5) + 2(x – 5), students should recognize that the x – 5 is common to both expressions being added, so it simplifies to (3x + 2)(x – 5); or see x⁴ – y⁴ as (x²)² – (y²)², thus recognizing it as a difference of squares that can be factored as (x² – y²)(x² + y²).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=103",
+          "images": [
+            "questions/2024/Q35-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q35-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.SSE.3": {
+      "description": "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression. a. Factor a quadratic expression to reveal the zeros of the function it defines.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q12",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Write expressions in equivalent forms to solve problems Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=72",
+          "images": [
+            "questions/2017/Q12-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q12-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q13",
+          "type": "Equation Item",
+          "text": "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression. a. Factor a quadratic expression to reveal the zeros of the function it defines.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=47",
+          "images": [
+            "questions/2021/Q13-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q13-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q12",
+          "type": "Equation Item",
+          "text": "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression. a. Factor a quadratic expression to reveal the zeros of the function it defines.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=44",
+          "images": [
+            "questions/2025/Q12-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q12-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.APR.1": {
+      "description": "Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials. a. Focus on polynomial expressions that simplify to forms that are linear or quadratic.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q19",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Perform arithmetic operations on polynomials Understand that polynomials form a system analogous to the integers, namely, that they are closed under the operations of addition, subtraction, and multiplication; add, subtract and multiply polynomials.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=130",
+          "images": [
+            "questions/2017/Q19-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q19-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q30",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials. a. Focus on polynomial expressions that simplify to forms that are linear or quadratic.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=84",
+          "images": [
+            "questions/2019/Q30-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q30-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q33",
+          "type": "Equation Item",
+          "text": "Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials. a. Focus on polynomial expressions that simplify to forms that are linear or quadratic.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=96",
+          "images": [
+            "questions/2024/Q33-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q33-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q2",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials. a. Focus on polynomial expressions that simplify to forms that are linear or quadratic.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=12",
+          "images": [
+            "questions/2025/Q2-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q2-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.CED.1": {
+      "description": "Create equations and inequalities in one variable and use them to solve problems. Include equations and inequalities arising from linear, quadratic, simple rational, and exponential functions.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q20",
+          "type": "Equation Item",
+          "text": "Include equations arising from linear and quadratic functions, and simple rational and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=134",
+          "images": [
+            "questions/2017/Q20-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q20-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q33",
+          "type": "Equation Item",
+          "text": "Create equations and inequalities in one variable and use them to solve problems. Include equations arising from linear and quadratic functions, and simple rational and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=118",
+          "images": [
+            "questions/2018/Q33-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q33-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q32",
+          "type": "Equation Item",
+          "text": "Create equations and inequalities in one variable and use them to solve problems. Include equations and inequalities arising from linear, quadratic, simple rational, and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=102",
+          "images": [
+            "questions/2023/Q32-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q32-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.CED.2": {
+      "description": "Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales. a. Focus on applying linear and simple exponential expressions. b. Focus on applying simple quadratic expressions.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q14",
+          "type": "Equation Item",
+          "text": "Create equations that describe numbers or relationships Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=88",
+          "images": [
+            "questions/2017/Q14-q1.webp"
+          ],
+          "scoringImages": []
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q22",
+          "type": "Equation Item",
+          "text": "Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales. a. Focus on applying linear and simple exponential expressions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=87",
+          "images": [
+            "questions/2021/Q22-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q22-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q11",
+          "type": "Equation Item",
+          "text": "Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=15",
+          "images": [
+            "questions/2022/Q11-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q11-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q40",
+          "type": "Equation Item",
+          "text": "Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales. a. Focus on applying linear and simple exponential expressions. b. Focus on applying simple quadratic expressions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=117",
+          "images": [
+            "questions/2024/Q40-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q40-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.CED.3": {
+      "description": "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context. For example, represent inequalities describing nutritional and cost constraints on combinations of different foods.",
+      "items": [
+        {
+          "year": "Spring 2019",
+          "question": "Q34",
+          "type": "Multi-Select Item",
+          "answer": "A, B, C",
+          "text": "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context. For example, represent inequalities describing nutritional and cost constraints on combinations of different foods.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=106",
+          "images": [
+            "questions/2019/Q34-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q34-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q37",
+          "type": "Equation Item",
+          "text": "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context. For example, represent inequalities describing nutritional and cost constraints on combinations of different foods.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=141",
+          "images": [
+            "questions/2021/Q37-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q37-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q53",
+          "type": "Equation Item",
+          "text": "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context. For example, represent inequalities describing nutritional and cost constraints on combinations of different foods.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=140",
+          "images": [
+            "questions/2022/Q53-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q53-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q20",
+          "type": "Multi-Interaction Item",
+          "text": "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context. For example, represent inequalities describing nutritional and cost constraints on combinations of different foods.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=57",
+          "images": [
+            "questions/2023/Q20-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q20-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q6",
+          "type": "Multi-Select Item",
+          "answer": "A, E",
+          "text": "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context. For example, represent inequalities describing nutritional and cost constraints on combinations of different foods.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=17",
+          "images": [
+            "questions/2024/Q6-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q6-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q20",
+          "type": "Multi-Select Item",
+          "answer": "A, D",
+          "text": "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context. For example, represent inequalities describing nutritional and cost constraints on combinations of different foods.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=76",
+          "images": [
+            "questions/2025/Q20-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q20-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.CED.4": {
+      "description": "Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations. a. Focus on formulas in which the variable of interest is linear or square. For example, rearrange Ohm's law V=IR to highlight resistance R, or rearrange the formula for the area of a circle A=(pi)r² to highlight radius r.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q5",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Create equations that describe numbers or relationships Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=38",
+          "images": [
+            "questions/2017/Q5-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q5-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q41",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations. For example, rearrange Ohm's law V = IR to highlight resistance R.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=156",
+          "images": [
+            "questions/2018/Q41-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q41-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q38",
+          "type": "Equation Item",
+          "text": "Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations. a. Focus on formulas in which the variable of interest is linear or square. For example, rearrange Ohm's law V=IR to highlight resistance R, or rearrange the formula for the area of a circle A=(pi)r² to highlight radius r.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=126",
+          "images": [
+            "questions/2019/Q38-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q38-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.REI.1": {
+      "description": "Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q19",
+          "type": "Equation Item",
+          "text": "Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=44",
+          "images": [
+            "questions/2018/Q19-q1.webp",
+            "questions/2018/Q19-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q19-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q45",
+          "type": "Equation Item",
+          "text": "Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=113",
+          "images": [
+            "questions/2022/Q45-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q45-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q36",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=111",
+          "images": [
+            "questions/2023/Q36-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q36-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q18",
+          "type": "Multi-Interaction Item",
+          "text": "Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=57",
+          "images": [
+            "questions/2025/Q18-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q18-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 31770",
+          "type": "Multiple Choice",
+          "answer": "A (each side was divided by 2)",
+          "title": "Division in a Linear Equation",
+          "text": "The equation 2(3x + 4) = 4 becomes 3x + 4 = 2 in the first step of solving it. Which operation occurred between the original equation and the first step?",
+          "images": [
+            "questions/2026/31770.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "A.REI.3": {
+      "description": "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q7",
+          "type": "Equation Item",
+          "text": "Solve equations and inequalities in one variable Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=46",
+          "images": [
+            "questions/2017/Q7-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q7-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q11",
+          "type": "Equation Item",
+          "text": "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=37",
+          "images": [
+            "questions/2019/Q11-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q11-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q39",
+          "type": "Equation Item",
+          "text": "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=105",
+          "images": [
+            "questions/2022/Q39-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q39-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q8",
+          "type": "Equation Item",
+          "text": "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=25",
+          "images": [
+            "questions/2024/Q8-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q8-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q54",
+          "type": "Equation Item",
+          "text": "Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=143",
+          "images": [
+            "questions/2025/Q54-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q54-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.REI.4": {
+      "description": "Solve quadratic equations as appropriate to the initial form of the equation by inspection, e.g., for x² = 49; taking square roots; completing the square; applying the quadratic formula; or utilizing the Zero-Product Property after factoring.",
+      "items": [
+        {
+          "year": "Spring 2016",
+          "question": "Q4",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Solve quadratic equations as appropriate to the initial form of the equation by inspection, e.g., for x² = 49; taking square roots; completing the square; applying the quadratic formula; or utilizing the Zero-Product Property after factoring.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/0016600-OST_AlgebraI_ItemReleaseScoringGuide_Sp16.pdf#page=18",
+          "images": [
+            "questions/2016/Q4-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2016/Q4-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q42",
+          "type": "Equation Item",
+          "text": "Solve quadratic equations as appropriate to the initial form of the equation by inspection, e.g., for x² = 49; taking square roots; completing the square; applying the quadratic formula; or utilizing the Zero-Product Property after factoring.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=160",
+          "images": [
+            "questions/2018/Q42-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q42-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q29",
+          "type": "Equation Item",
+          "text": "Solve quadratic equations as appropriate to the initial form of the equation by inspection, e.g., for x² = 49; taking square roots; completing the square; applying the quadratic formula; or utilizing the Zero-Product Property after factoring.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=111",
+          "images": [
+            "questions/2021/Q29-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q29-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q10",
+          "type": "Equation Item",
+          "text": "Solve quadratic equations as appropriate to the initial form of the equation by inspection, e.g., for x² = 49; taking square roots; completing the square; applying the quadratic formula; or utilizing the Zero-Product Property after factoring.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=35",
+          "images": [
+            "questions/2023/Q10-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q10-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q49",
+          "type": "Equation Item",
+          "text": "Solve quadratic equations as appropriate to the initial form of the equation by inspection, e.g., for x² = 49; taking square roots; completing the square; applying the quadratic formula; or utilizing the Zero-Product Property after factoring.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=129",
+          "images": [
+            "questions/2024/Q49-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q49-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 46386",
+          "type": "Multiple Choice",
+          "answer": "C ((x − 7)² = 29)",
+          "title": "Complete the Square",
+          "text": "Which equation is equivalent to x² − 14x + 20 = 0? A) (x − 7)² = −69  B) (x − 7)² = −20  C) (x − 7)² = 29  D) (x − 7)² = 0",
+          "images": [
+            "questions/2026/46386.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "A.REI.5": {
+      "description": "Verify that, given a system of two equations in two variables, replacing one equation by the sum of that equation and a multiple of the other produces a system with the same solutions.",
+      "items": [
+        {
+          "year": "Spring 2016",
+          "question": "Q2",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Prove that, given a system of two equations in two variables, replacing one equation by the sum of that equation and a multiple of the other produces a system with the same solutions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/0016600-OST_AlgebraI_ItemReleaseScoringGuide_Sp16.pdf#page=10",
+          "images": [
+            "questions/2016/Q2-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2016/Q2-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q27",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Verify that, given a system of two equations in two variables, replacing one equation by the sum of that equation and a multiple of the other produces a system with the same solutions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=73",
+          "images": [
+            "questions/2022/Q27-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q27-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 46605",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "title": "Identify System of Equations with Same Solution",
+          "text": "Connie replaces −x + 5y = 10 in the system −x + 5y = 10, 2x − y = −4 with an equation that keeps the same solution. Which equation can she use? A) 2(−x + 5y) + (2x − y) = 2(10) + (−4)  B) 2(−x + 5y) + (2x − y) = 10 + (−4)  C) (−x + 5y)(2x − y) = (10)(−4)  D) (−x + 5y)(x − y) = (10)(−2)",
+          "images": [
+            "questions/2026/46605.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "A.REI.6": {
+      "description": "Solve systems of linear equations algebraically and graphically. a. Limit to pairs of linear equations in two variables.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q13",
+          "type": "Equation Item",
+          "text": "Solve systems of equations Solve systems of linear equations exactly and approximately (e.g., with graphs), focusing on pairs of linear equations in two variables.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=76",
+          "images": [
+            "questions/2017/Q13-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q13-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q10",
+          "type": "Equation Item",
+          "text": "Solve systems of linear equations exactly and approximately (e.g., with graphs), focusing on pairs of linear equations in two variables.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=18",
+          "images": [
+            "questions/2018/Q10-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q10-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q14",
+          "type": "Equation Item",
+          "text": "Solve systems of linear equations algebraically and graphically. a. Limit to pairs of linear equations in two variables.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=54",
+          "images": [
+            "questions/2019/Q14-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q14-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q6",
+          "type": "Equation Item",
+          "text": "Solve systems of linear equations algebraically and graphically. a. Limit to pairs of linear equations in two variables.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=12",
+          "images": [
+            "questions/2021/Q6-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q6-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q27",
+          "type": "Equation Item",
+          "text": "Solve systems of linear equations algebraically and graphically. a. Limit to pairs of linear equations in two variables.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=83",
+          "images": [
+            "questions/2024/Q27-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q27-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q19",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Solve systems of linear equations algebraically and graphically. a. Limit to pairs of linear equations in two variables.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=73",
+          "images": [
+            "questions/2025/Q19-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q19-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.REI.7": {
+      "description": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically. For example, find the points of intersection between the line y = –3x and the circle x² + y² = 3.",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q38",
+          "type": "Table Item",
+          "text": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically. For example, find the points of intersection between the line y = –3x and the circle x² + y² = 3.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=146",
+          "images": [
+            "questions/2018/Q38-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q38-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q35",
+          "type": "Equation Item",
+          "text": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically. For example, find the points of intersection between the line y = –3x and the circle x² + y² = 3.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=122",
+          "images": [
+            "questions/2021/Q35-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q35-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q20",
+          "type": "Equation Item",
+          "text": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically. For example, find the points of intersection between the line y = –3x and the circle x² + y² = 3.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=45",
+          "images": [
+            "questions/2022/Q20-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q20-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q47",
+          "type": "Equation Item",
+          "text": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically. For example, find the points of intersection between the line y = –3x and the circle x² + y² = 3.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=128",
+          "images": [
+            "questions/2023/Q47-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q47-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q38",
+          "type": "Equation Item",
+          "text": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically. For example, find the points of intersection between the line y = –3x and the circle x² + y² = 3.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=110",
+          "images": [
+            "questions/2024/Q38-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q38-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.REI.10": {
+      "description": "Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q18",
+          "type": "Multi-Select Item",
+          "answer": "A, D",
+          "text": "Represent and solve equations and inequalities graphically Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=126",
+          "images": [
+            "questions/2017/Q18-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q18-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q3",
+          "type": "Equation Item",
+          "text": "Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=18",
+          "images": [
+            "questions/2019/Q3-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q3-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q39",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=119",
+          "images": [
+            "questions/2023/Q39-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q39-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q49",
+          "type": "Multi-Select Item",
+          "answer": "A, B, E",
+          "text": "Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=129",
+          "images": [
+            "questions/2025/Q49-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q49-s1.webp"
+          ]
+        }
+      ]
+    },
+    "A.REI.11": {
+      "description": "Explain why the x-coordinates of the points where the graphs of the equation y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, making tables of values, or finding successive approximations.",
+      "items": [
+        {
+          "year": "Spring 2019",
+          "question": "Q33",
+          "type": "Equation Item",
+          "text": "Explain why the x-coordinates of the points where the graphs of the equation y = f(x) and y = g(x) intersect are the solutions of the equation f(x)= g(x); find the solutions approximately, e.g., using technology to graph the functions, making tables of values, or finding successive approximations.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=97",
+          "images": [
+            "questions/2019/Q33-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q33-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q20",
+          "type": "Multi-Interaction Item",
+          "text": "Explain why the x-coordinates of the points where the graphs of the equation y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, making tables of values, or finding successive approximations.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=69",
+          "images": [
+            "questions/2021/Q20-q1.webp",
+            "questions/2021/Q20-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q20-s1.webp",
+            "questions/2021/Q20-s2.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q50",
+          "type": "Equation Item",
+          "text": "Explain why the x-coordinates of the points where the graphs of the equation y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, making tables of values, or finding successive approximations.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=131",
+          "images": [
+            "questions/2022/Q50-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q50-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q10",
+          "type": "Equation Item",
+          "text": "Explain why the x-coordinates of the points where the graphs of the equation y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, making tables of values, or finding successive approximations.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=32",
+          "images": [
+            "questions/2025/Q10-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q10-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 36958",
+          "type": "Equation Item",
+          "answer": "3 and 4",
+          "title": "Solution to f(x) = g(x) in a Table",
+          "text": "A table gives values of two increasing functions f and g for x = 1 to 6 (f: 1.6, 2.56, 4.10, 6.55, 10.49, 16.78; g: 5.15, 5.32, 5.52, 5.75, 6.01, 6.31). A solution to f(x) = g(x) lies between which consecutive whole numbers?",
+          "images": [
+            "questions/2026/36958.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "A.REI.12": {
+      "description": "Graph the solutions to a linear inequality in two variables as a half-plane (excluding the boundary in the case of a strict inequality), and graph the solution set to a system of linear inequalities in two variables as the intersection of the corresponding half-planes.",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q29",
+          "type": "Equation Item",
+          "text": "Graph the solutions to a linear inequality in two variables as a half-plane (excluding the boundary in the case of a strict inequality), and graph the solution set to a system of linear inequalities in two variables as the intersection of the corresponding half-planes.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=90",
+          "images": [
+            "questions/2018/Q29-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q29-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.IF.1": {
+      "description": "Understand that a function from one set (called the domain) to another set (called the range) assigns to each element of the domain exactly one element of the range. If f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x. The graph of f is the graph of the equation y = f(x).",
+      "items": [
+        {
+          "year": "Spring 2021",
+          "question": "Q23",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Understand that a function from one set (called the domain) to another set (called the range) assigns to each element of the domain exactly one element of the range. If f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x. The graph of f is the graph of the equation y = f(x).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=95",
+          "images": [
+            "questions/2021/Q23-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q23-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q12",
+          "type": "Multi-Select Item",
+          "answer": "B, C, E, F",
+          "text": "Understand that a function from one set (called the domain) to another set (called the range) assigns to each element of the domain exactly one element of the range. If f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x. The graph of f is the graph of the equation y = f(x).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=22",
+          "images": [
+            "questions/2022/Q12-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q12-s1.webp",
+            "questions/2022/Q12-s2.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q49",
+          "type": "Multi-Select Item",
+          "answer": "B, C, E",
+          "text": "Understand that a function from one set (called the domain) to another set (called the range) assigns to each element of the domain exactly one element of the range. If f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x. The graph of f is the graph of the equation y = f(x).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=139",
+          "images": [
+            "questions/2023/Q49-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q49-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q17",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Understand that a function from one set (called the domain) to another set (called the range) assigns to each element of the domain exactly one element of the range. If f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x. The graph of f is the graph of the equation y = f(x).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=53",
+          "images": [
+            "questions/2025/Q17-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q17-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 44756",
+          "type": "Table Item",
+          "answer": "Any values that repeat an x-value, e.g. y = 1 for x = 2 and x = 2 for y = 6",
+          "title": "Completing the Table to Make the Relationship Not a Function",
+          "text": "A table with points (−5, −3), (−1, 0), (2, ?), (?, 6), (7, 11) shows a relation that is not a function. Complete the table with possible missing values.",
+          "images": [
+            "questions/2026/44756.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "F.IF.2": {
+      "description": "Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q3",
+          "type": "Table Item",
+          "text": "Understand the concept of a function and use function notation Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=24",
+          "images": [
+            "questions/2017/Q3-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q3-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q30",
+          "type": "Equation Item",
+          "text": "Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=108",
+          "images": [
+            "questions/2018/Q30-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q30-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q26",
+          "type": "Table Item",
+          "text": "Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=101",
+          "images": [
+            "questions/2021/Q26-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q26-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q18",
+          "type": "Equation Item",
+          "text": "Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=49",
+          "images": [
+            "questions/2023/Q18-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q18-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q23",
+          "type": "Equation Item",
+          "text": "Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=80",
+          "images": [
+            "questions/2025/Q23-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q23-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.IF.3": {
+      "description": "Recognize that sequences are functions, sometimes defined recursively, whose domain is a subset of the integers. For example, the Fibonacci sequence is defined recursively by f(0) = f(1) = 1, f(n + 1) = f(n) + f(n – 1) for n greater than or equal to 1.",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q7",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Recognize that sequences are functions, sometimes defined recursively, whose domain is a subset of the integers. For example, the Fibonacci sequence is defined recursively by f(0) = f(1) = 1, f(n+1) = f(n) + f(n-1) for n ≥ 1.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=14",
+          "images": [
+            "questions/2018/Q7-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q7-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q12",
+          "type": "Equation Item",
+          "text": "Recognize that sequences are functions, sometimes defined recursively, whose domain is a subset of the integers. For example, the Fibonacci sequence is defined recursively by f(0) = f(1) = 1, f(n + 1) = f(n) + f(n – 1) for n ≥ 1.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=45",
+          "images": [
+            "questions/2019/Q12-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q12-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q7",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Recognize that sequences are functions, sometimes defined recursively, whose domain is a subset of the integers. For example, the Fibonacci sequence is defined recursively by f(0) = f(1) = 1, f(n + 1) = f(n) + f(n – 1) for n greater than or equal to 1.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=21",
+          "images": [
+            "questions/2024/Q7-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q7-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q53",
+          "type": "Equation Item",
+          "text": "Recognize that sequences are functions, sometimes defined recursively, whose domain is a subset of the integers. For example, the Fibonacci sequence is defined recursively by f(0) = f(1) = 1, f(n + 1) = f(n) + f(n – 1) for n greater than or equal to 1.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=133",
+          "images": [
+            "questions/2025/Q53-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q53-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 33267",
+          "type": "Multiple Choice",
+          "answer": "D (f(x) = 2 · 3^(x − 1))",
+          "title": "Function to Model Geometric Sequence",
+          "text": "The third through sixth terms of a sequence are 18, 54, 162, 486. Which function models the xth term? A) f(x) = 3x  B) f(x) = 2 · 3^x  C) f(x) = 3x − 1  D) f(x) = 2 · 3^(x − 1)",
+          "images": [
+            "questions/2026/33267.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "F.IF.4": {
+      "description": "For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. Key features include: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity. b. Focus on linear, quadratic, and exponential functions.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q16",
+          "type": "Short Response",
+          "text": "Key features include: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity.*",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=104",
+          "images": [
+            "questions/2017/Q16-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q16-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q15",
+          "type": "Equation Item",
+          "text": "For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. Key features include: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=28",
+          "images": [
+            "questions/2018/Q15-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q15-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q18",
+          "type": "Inline Choice Item",
+          "text": "For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. Key features include the following: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=57",
+          "images": [
+            "questions/2021/Q18-q1.webp",
+            "questions/2021/Q18-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q18-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q23",
+          "type": "Grid Item",
+          "text": "For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. Key features include the following: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=55",
+          "images": [
+            "questions/2022/Q23-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q23-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q3",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. Key features include the following: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity. b. Focus on linear, quadratic, and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=24",
+          "images": [
+            "questions/2023/Q3-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q3-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q15",
+          "type": "Equation Item",
+          "text": "For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. Key features include: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity. b. Focus on linear, quadratic, and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=60",
+          "images": [
+            "questions/2024/Q15-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q15-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q52",
+          "type": "Multi-Interaction Item",
+          "text": "For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. Key features include: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity. b. Focus on linear, quadratic, and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=139",
+          "images": [
+            "questions/2024/Q52-q1.webp",
+            "questions/2024/Q52-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q52-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.IF.5": {
+      "description": "Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes. For example, if the function h(n) gives the number of person-hours it takes to assemble n engines in a factory, then the positive integers would be an appropriate domain for the function. b. Focus on linear, quadratic, and exponential functions.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q17",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "For example, if the function h(n) gives the number of person-hours it takes to assemble n engines in a factory, then the positive integers would be an appropriate domain for the function.*",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=122",
+          "images": [
+            "questions/2017/Q17-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q17-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q22",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes. For example, if the function h(n) gives the number of person-hours it takes to assemble n engines in a factory, then the positive integers would be an appropriate domain for the function.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=72",
+          "images": [
+            "questions/2018/Q22-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q22-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q21",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes. For example, if the function h(n) gives the number of person-hours it takes to assemble n engines in a factory, then the positive integers would be an appropriate domain for the function.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=73",
+          "images": [
+            "questions/2023/Q21-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q21-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q9",
+          "type": "Inline Choice Item",
+          "text": "Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes. For example, if the function h(n) gives the number of person-hours it takes to assemble n engines in a factory, then the positive integers would be an appropriate domain for the function. b. Focus on linear, quadratic, and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=37",
+          "images": [
+            "questions/2024/Q9-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q9-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.IF.7": {
+      "description": "Graph functions expressed symbolically and indicate key features of the graph, by hand in simple cases and using technology for more complicated cases. Include applications and how key features relate to characteristics of a situation, making selection of a particular type of function model appropriate. b. Graph quadratic functions and indicate intercepts, maxima, and minima.",
+      "items": [
+        {
+          "year": "Spring 2016",
+          "question": "Q3",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases. a. Graph linear and quadratic functions and show intercepts, maxima, and minima.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/0016600-OST_AlgebraI_ItemReleaseScoringGuide_Sp16.pdf#page=14",
+          "images": [
+            "questions/2016/Q3-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2016/Q3-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q25",
+          "type": "Equation Item",
+          "text": "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases. a. Graph linear and quadratic functions and show intercepts, maxima, and minima.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=80",
+          "images": [
+            "questions/2018/Q25-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q25-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q15",
+          "type": "Grid Item",
+          "text": "Graph functions expressed symbolically and indicate key features of the graph, by hand in simple cases and using technology for more complicated cases. Include applications and how key features relate to characteristics of a situation, making selection of a particular type of function model appropriate.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=64",
+          "images": [
+            "questions/2019/Q15-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q15-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q38",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Graph functions expressed symbolically and indicate key features of the graph, by hand in simple cases and using technology for more complicated cases. Include applications and how key features relate to characteristics of a situation, making selection of a particular type of function model appropriate. a. Graph linear functions and indicate intercepts.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=102",
+          "images": [
+            "questions/2022/Q38-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q38-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q30",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Graph functions expressed symbolically and indicate key features of the graph, by hand in simple cases and using technology for more complicated cases. Include applications and how key features relate to characteristics of a situation, making selection of a particular type of function model appropriate. b. Graph quadratic functions and indicate intercepts, maxima, and minima.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=87",
+          "images": [
+            "questions/2023/Q30-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q30-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.IF.8": {
+      "description": "Use the process of factoring and completing the square in a quadratic function to show zeros, extreme values, and symmetry of the graph, and interpret these in terms of a context. a. Focus on completing the square to quadratic functions with the leading coefficient of 1.",
+      "items": [
+        {
+          "year": "Spring 2026",
+          "question": "Item 46658",
+          "type": "Equation Item",
+          "answer": "f(x) = (x − 4)² − 36; x = 4",
+          "title": "Complete the Square to Reveal Axis of Symmetry",
+          "text": "Given f(x) = x² − 8x − 20: Part A, complete f(x) = (x − □)² + □ to reveal the vertex. Part B, write the equation of the axis of symmetry.",
+          "images": [
+            "questions/2026/46658.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "F.IF.9": {
+      "description": "Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions). For example, given a graph of one quadratic function and an algebraic expression for another, say which has the larger maximum. b. Focus on linear, quadratic, and exponential functions.",
+      "items": [
+        {
+          "year": "Spring 2025",
+          "question": "Q6",
+          "type": "Inline Choice Item",
+          "text": "Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions). For example, given a graph of one quadratic function and an algebraic expression for another, say which has the larger maximum. b. Focus on linear, quadratic, and exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=18",
+          "images": [
+            "questions/2025/Q6-q1.webp",
+            "questions/2025/Q6-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q6-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.BF.2": {
+      "description": "Write arithmetic and geometric sequences both recursively and with an explicit formula, use them to model situations, and translate between the two forms.",
+      "items": [
+        {
+          "year": "Spring 2019",
+          "question": "Q35",
+          "type": "Equation Item",
+          "text": "Write arithmetic and geometric sequences both recursively and with an explicit formula, use them to model situations, and translate between the two forms.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=110",
+          "images": [
+            "questions/2019/Q35-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q35-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q40",
+          "type": "Equation Item",
+          "text": "Write arithmetic and geometric sequences both recursively and with an explicit formula, use them to model situations, and translate between the two forms.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=152",
+          "images": [
+            "questions/2021/Q40-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q40-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q32",
+          "type": "Equation Item",
+          "text": "Write arithmetic and geometric sequences both recursively and with an explicit formula, use them to model situations, and translate between the two forms.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=91",
+          "images": [
+            "questions/2022/Q32-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q32-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 46529",
+          "type": "Multiple Choice",
+          "answer": "A (k(n) = 17n)",
+          "title": "Identify Function to Describe Sequence",
+          "text": "The first four terms of a sequence are 17, 34, 51, 68, … Which function describes the nth term, where k(1) = 17? A) k(n) = 17n  B) k(n) = 17(2)ⁿ  C) k(n) = n + 17  D) k(n) = 17n + 17",
+          "images": [
+            "questions/2026/46529.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "F.BF.3": {
+      "description": "Identify the effect on the graph of replacing f(x) by f(x) + k, kf(x), f(kx), and f(x + k) for specific values of k (both positive and negative); find the value of k given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology. Include recognizing even and odd functions from their graphs and algebraic expressions for them. a. Focus on transformations of graphs of quadratic functions, except for f(kx).",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q1",
+          "type": "Equation Item",
+          "text": "Experiment with cases and illustrate an explanation of the effects on the graph using technology. Include recognizing even and odd functions from their graphs and algebraic expressions for them.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=10",
+          "images": [
+            "questions/2017/Q1-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q1-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q25",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Identify the effect on the graph of replacing f(x) by f(x) + k, kf(x), f(kx), and f(x + k) for specific values of k (both positive and negative); find the value of k given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology. Include recognizing even and odd functions from their graphs and algebraic expressions for them. a. Focus on transformations of graphs of quadratic functions, except for f(kx).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=88",
+          "images": [
+            "questions/2025/Q25-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q25-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.LE.1": {
+      "description": "Distinguish between situations that can be modeled with linear functions and with exponential functions. c. Recognize situations in which a quantity grows or decays by a constant percent rate per unit interval relative to another.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q8",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Construct and compare linear, quadratic, and exponential models and solve problems Distinguish between situations that can be modeled with linear functions and with exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=56",
+          "images": [
+            "questions/2017/Q8-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q8-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q2",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Distinguish between situations that can be modeled with linear functions and with exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=15",
+          "images": [
+            "questions/2019/Q2-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q2-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q32",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Distinguish between situations that can be modeled with linear functions and with exponential functions.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=93",
+          "images": [
+            "questions/2024/Q32-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q32-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q47",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Distinguish between situations that can be modeled with linear functions and with exponential functions. c. Recognize situations in which a quantity grows or decays by a constant percent rate per unit interval relative to another.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=118",
+          "images": [
+            "questions/2025/Q47-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q47-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.LE.2": {
+      "description": "Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q15",
+          "type": "Equation Item",
+          "text": "Construct and compare linear, quadratic, and exponential models and solve problems Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=96",
+          "images": [
+            "questions/2017/Q15-q1.webp"
+          ],
+          "scoringImages": []
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q43",
+          "type": "Equation Item",
+          "text": "Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=170",
+          "images": [
+            "questions/2018/Q43-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q43-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q6",
+          "type": "Table Item",
+          "text": "Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=26",
+          "images": [
+            "questions/2019/Q6-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q6-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q25",
+          "type": "Equation Item",
+          "text": "Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=63",
+          "images": [
+            "questions/2022/Q25-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q25-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q39",
+          "type": "Equation Item",
+          "text": "Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=98",
+          "images": [
+            "questions/2025/Q39-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q39-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.LE.3": {
+      "description": "Observe using graphs and tables that a quantity increasing exponentially eventually exceeds a quantity increasing linearly or quadratically.",
+      "items": [
+        {
+          "year": "Spring 2019",
+          "question": "Q21",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Observe using graphs and tables that a quantity increasing exponentially eventually exceeds a quantity increasing linearly or quadratically.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=75",
+          "images": [
+            "questions/2019/Q21-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q21-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q9",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Observe using graphs and tables that a quantity increasing exponentially eventually exceeds a quantity increasing linearly or quadratically.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=32",
+          "images": [
+            "questions/2023/Q9-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q9-s1.webp"
+          ]
+        }
+      ]
+    },
+    "F.LE.5": {
+      "description": "Interpret the parameters in a linear or exponential function in terms of a context.",
+      "items": [
+        {
+          "year": "Spring 2016",
+          "question": "Q1",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Interpret the parameters in a linear or exponential function in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/0016600-OST_AlgebraI_ItemReleaseScoringGuide_Sp16.pdf#page=6",
+          "images": [
+            "questions/2016/Q1-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2016/Q1-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q27",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Interpret the parameters in a linear or exponential function in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=81",
+          "images": [
+            "questions/2019/Q27-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q27-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q47",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Interpret the parameters in a linear or exponential function in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=160",
+          "images": [
+            "questions/2021/Q47-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q47-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q30",
+          "type": "Equation Item",
+          "text": "Interpret the parameters in a linear or exponential function in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=80",
+          "images": [
+            "questions/2022/Q30-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q30-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q25",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Interpret the parameters in a linear or exponential function in terms of a context.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=75",
+          "images": [
+            "questions/2024/Q25-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q25-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 33471",
+          "type": "Multiple Choice",
+          "answer": "A (the coins she received for her birthday)",
+          "title": "Jasmine's Coin Collection",
+          "text": "Jasmine adds the same number of coins to her birthday coin collection every month; the total after x months is f(x) = 4x + 22. What does the 22 represent?",
+          "images": [
+            "questions/2026/33471.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "S.ID.1": {
+      "description": "Represent data with plots on the real number line (dot plots, histograms, and box plots) in the context of real-world applications using the GAISE model.",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q21",
+          "type": "Graphic Response",
+          "text": "Represent data with plots on the real number line (dot plots, histograms, and box plots).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=62",
+          "images": [
+            "questions/2018/Q21-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q21-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q46",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Represent data with plots on the real number line (dot plots G, histograms, and box plots) in the context of real-world applications using the GAISE model.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=122",
+          "images": [
+            "questions/2023/Q46-q1.webp",
+            "questions/2023/Q46-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q46-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q26",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Represent data with plots on the real number line (dot plots, histograms, and box plots) in the context of real-world applications using the GAISE model.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=79",
+          "images": [
+            "questions/2024/Q26-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q26-s1.webp"
+          ]
+        }
+      ]
+    },
+    "S.ID.2": {
+      "description": "In the context of real-world applications by using the GAISE model, use statistics appropriate to the shape of the data distribution to compare center (median and mean) and spread (mean absolute deviation, interquartile range, and standard deviation) of two or more different data sets.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q11",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Summarize, represent, and interpret data on a single count or measurement variable Use statistics appropriate to the shape of the data distribution to compare center (median, mean) and spread (interquartile range, standard deviation) of two or more different data sets.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=68",
+          "images": [
+            "questions/2017/Q11-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q11-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q43",
+          "type": "Matching Item",
+          "text": "In the context of real-world applications by using the GAISE model, use statistics appropriate to the shape of the data distribution to compare center (median and mean) and spread (mean absolute deviation, interquartile range, and standard deviation) of two or more different data sets.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=136",
+          "images": [
+            "questions/2019/Q43-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q43-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q16",
+          "type": "Equation Item",
+          "text": "In the context of real-world applications by using the GAISE model, use statistics appropriate to the shape of the data distribution to compare center (median and mean) and spread (mean absolute deviation G, interquartile range G, and standard deviation) of two or more different data sets.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=37",
+          "images": [
+            "questions/2022/Q16-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q16-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q23",
+          "type": "Equation Item",
+          "text": "In the context of real-world applications by using the GAISE model, use statistics appropriate to the shape of the data distribution to compare center (median and mean) and spread (mean absolute deviation G, interquartile range G, and standard deviation) of two or more different data sets.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=77",
+          "images": [
+            "questions/2023/Q23-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q23-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q44",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "In the context of real-world applications by using the GAISE model, use statistics appropriate to the shape of the data distribution to compare center (median and mean) and spread (mean absolute deviation, interquartile range, and standard deviation) of two or more different data sets.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=125",
+          "images": [
+            "questions/2024/Q44-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q44-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q45",
+          "type": "Inline Choice Item",
+          "text": "In the context of real-world applications by using the GAISE model, use statistics appropriate to the shape of the data distribution to compare center (median and mean) and spread (mean absolute deviation, interquartile range, and standard deviation) of two or more different data sets.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=108",
+          "images": [
+            "questions/2025/Q45-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q45-s1.webp"
+          ]
+        }
+      ]
+    },
+    "S.ID.3": {
+      "description": "In the context of real-world applications by using the GAISE model, interpret differences in shape, center, and spread in the context of the data sets, accounting for possible effects of extreme data points (outliers).",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q5",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Interpret differences in shape, center, and spread in the context of the data sets, accounting for possible effects of extreme data points (outliers).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=10",
+          "images": [
+            "questions/2018/Q5-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q5-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q7",
+          "type": "Inline Choice Item",
+          "text": "In the context of real-world applications by using the GAISE model, interpret differences in shape, center, and spread in the context of the data sets, accounting for possible effects of extreme data points (outliers).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=22",
+          "images": [
+            "questions/2021/Q7-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q7-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q31",
+          "type": "Inline Choice Item",
+          "text": "In the context of real-world applications by using the GAISE model, interpret differences in shape, center, and spread in the context of the data sets, accounting for possible effects of extreme data points (outliers).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=91",
+          "images": [
+            "questions/2023/Q31-q1.webp",
+            "questions/2023/Q31-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q31-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q4",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "In the context of real-world applications by using the GAISE model, interpret differences in shape, center, and spread in the context of the data sets, accounting for possible effects of extreme data points (outliers).",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=13",
+          "images": [
+            "questions/2024/Q4-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q4-s1.webp"
+          ]
+        }
+      ]
+    },
+    "S.ID.5": {
+      "description": "Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.",
+      "items": [
+        {
+          "year": "Spring 2018",
+          "question": "Q37",
+          "type": "Equation Item",
+          "text": "Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=136",
+          "images": [
+            "questions/2018/Q37-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q37-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q31",
+          "type": "Table Item",
+          "text": "Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=87",
+          "images": [
+            "questions/2019/Q31-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q31-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q11",
+          "type": "Multi-Interaction Item",
+          "text": "Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=31",
+          "images": [
+            "questions/2021/Q11-q1.webp",
+            "questions/2021/Q11-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q11-s1.webp",
+            "questions/2021/Q11-s2.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q55",
+          "type": "Equation Item",
+          "text": "Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=149",
+          "images": [
+            "questions/2022/Q55-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q55-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2023",
+          "question": "Q2",
+          "type": "Equation Item",
+          "text": "Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Algebra-I.pdf#page=16",
+          "images": [
+            "questions/2023/Q2-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2023/Q2-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q10",
+          "type": "Equation Item",
+          "text": "Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=44",
+          "images": [
+            "questions/2024/Q10-q1.webp",
+            "questions/2024/Q10-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q10-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 35622",
+          "type": "Equation Item",
+          "answer": "30%",
+          "title": "Conditional Probability",
+          "text": "Anthony surveys eleventh-graders (49 fiction, 27 nonfiction, 14 neither) and twelfth-graders (21 fiction, 33 nonfiction, 6 neither) about their reading preferences. What percent of eleventh-graders prefer nonfiction?",
+          "images": [
+            "questions/2026/35622.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "S.ID.6": {
+      "description": "Represent data on two quantitative variables on a scatter plot, and describe how the variables are related. c. Fit a linear function for a scatterplot that suggests a linear association.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q4",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Summarize, represent, and interpret data on two categorical and quantitative variables Represent data on two quantitative variables on a scatter plot, and describe how the variables are related.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=34",
+          "images": [
+            "questions/2017/Q4-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q4-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2018",
+          "question": "Q17",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Represent data on two quantitative variables on a scatter plot, and describe how the variables are related.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp18_Alg_ItemReleaseScoringGuide.pdf#page=40",
+          "images": [
+            "questions/2018/Q17-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2018/Q17-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q19",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Represent data on two quantitative variables on a scatter plot, and describe how the variables are related. c. Fit a linear function for a scatter plot that suggests a linear association.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=65",
+          "images": [
+            "questions/2021/Q19-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q19-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q35",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Represent data on two quantitative variables on a scatter plot, and describe how the variables are related. c. Fit a linear function for a scatterplot that suggests a linear association.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=98",
+          "images": [
+            "questions/2022/Q35-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q35-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2026",
+          "question": "Item 40345",
+          "type": "Multiple Choice",
+          "answer": "D (y = −1.50x + 20)",
+          "title": "Fit Line To Scatter Plot",
+          "text": "A table and scatterplot show the points (0, 19), (1, 19), (2, 18), (2, 17), (4, 14), (7, 10), (8, 8), (10, 4). Which function best fits the data? A) y = −2.25x + 23  B) y = −2.25x + 19  C) y = −1.50x + 23  D) y = −1.50x + 20",
+          "images": [
+            "questions/2026/40345.png"
+          ],
+          "libraryUrl": "https://irl.cambiumast.com/ohio/"
+        }
+      ]
+    },
+    "S.ID.7": {
+      "description": "Interpret the slope (rate of change) and the intercept (constant term) of a linear model in the context of the data.",
+      "items": [
+        {
+          "year": "Spring 2019",
+          "question": "Q26",
+          "type": "Multiple Choice",
+          "answer": "B",
+          "text": "Interpret the slope (rate of change) and the intercept (constant term) of a linear model in the context of the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=78",
+          "images": [
+            "questions/2019/Q26-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q26-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2021",
+          "question": "Q36",
+          "type": "Inline Choice Item",
+          "text": "Interpret the slope (rate of change) and the intercept (constant term) of a linear model in the context of the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp21_AlgI_ItemRelease_ScoringGuide.pdf#page=130",
+          "images": [
+            "questions/2021/Q36-q1.webp",
+            "questions/2021/Q36-q2.webp"
+          ],
+          "scoringImages": [
+            "questions/2021/Q36-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2022",
+          "question": "Q47",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Interpret the slope (rate of change) and the intercept (constant term) of a linear model in the context of the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp22_IRSG_Alg-I_040522.pdf#page=127",
+          "images": [
+            "questions/2022/Q47-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2022/Q47-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q32",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Interpret the slope (rate of change) and the intercept (constant term) of a linear model in the context of the data.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=91",
+          "images": [
+            "questions/2025/Q32-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q32-s1.webp"
+          ]
+        }
+      ]
+    },
+    "S.ID.8": {
+      "description": "Compute (using technology) and interpret the correlation coefficient of a linear fit.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q10",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Interpret linear models Compute (using technology) and interpret the correlation coefficient of a linear fit.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=64",
+          "images": [
+            "questions/2017/Q10-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2017/Q10-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2019",
+          "question": "Q20",
+          "type": "Multi-Select Item",
+          "answer": "C, D",
+          "text": "Compute (using technology) and interpret the correlation coefficient of a linear fit.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/Sp19_Alg_ItemRelease_ScoringGuide.pdf#page=72",
+          "images": [
+            "questions/2019/Q20-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2019/Q20-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2024",
+          "question": "Q55",
+          "type": "Multiple Choice",
+          "answer": "A",
+          "text": "Compute (using technology) and interpret the correlation coefficient of a linear fit.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Sp24_IRSG_Alg%20I_FBL_052924.pdf#page=154",
+          "images": [
+            "questions/2024/Q55-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2024/Q55-s1.webp"
+          ]
+        },
+        {
+          "year": "Spring 2025",
+          "question": "Q7",
+          "type": "Multiple Choice",
+          "answer": "C",
+          "text": "Compute (using technology) and interpret the correlation coefficient of a linear fit.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST%20Sp25_IRSG_Alg%20I_FBL_051625.pdf#page=29",
+          "images": [
+            "questions/2025/Q7-q1.webp"
+          ],
+          "scoringImages": [
+            "questions/2025/Q7-s1.webp"
+          ]
+        }
+      ]
+    },
+    "S.ID.9": {
+      "description": "Distinguish between correlation and causation.",
+      "items": [
+        {
+          "year": "Spring 2017",
+          "question": "Q6",
+          "type": "Multiple Choice",
+          "answer": "D",
+          "text": "Distinguish between correlation and causation.",
+          "pdfUrl": "https://oh-ost.portal.cambiumast.com/content/contentresources/en/OST_Algebra_Sp17_Item-Release-Scoring-Guide_FBL_Updated-7-26-17.pdf#page=42",
+          "images": [
+            "questions/2017/Q6-q1.webp"
+          ],
+          "scoringImages": []
+        }
+      ]
+    }
+  }
+}
